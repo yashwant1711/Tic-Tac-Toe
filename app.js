@@ -18,7 +18,6 @@ let winningPaterns = [
 
 boxes.forEach((box)=>{
     box.addEventListener('click', ()=> {
-        box.innerHTML = 'yash' 
         if(turn0){
             box.innerHTML = 'O';
             turn0 = false
